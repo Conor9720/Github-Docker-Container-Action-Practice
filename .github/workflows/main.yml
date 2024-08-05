@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: github-docker-container-action-practice@v2
+        uses: action.yml@v2
         with:
           who-to-greet: 'Conor'
       # Use the output from the `hello` step
